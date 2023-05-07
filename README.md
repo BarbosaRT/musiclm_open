@@ -6,6 +6,11 @@ Pytorch implementation of [MusicLM](https://arxiv.org/abs/2301.11325), a SOTA te
 <img alt='diagram of CLAP' src='clap.png' title="CLAP" height='250px'>
 </p>
 
+[![Open In Colab][colab-badge2]][colab-notebook2]
+
+[colab-notebook2]: <https://colab.research.google.com/github/BarbosaRT/open_musiclm_colab/blob/main/notebooks/OpenMusicLM.ipynb>
+[colab-badge2]: <https://colab.research.google.com/assets/colab-badge.svg>
+
 ## Why CLAP?
 CLAP is a joint audio-text model trained on [LAION-Audio-630K](https://github.com/LAION-AI/audio-dataset). Similar to MuLan, it consists of an audio tower and a text tower that project their respective media onto a shared latent space (512 dimensions in CLAP vs 128 dimensions in MuLan).
 
